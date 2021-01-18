@@ -43,7 +43,7 @@ class Main extends React.Component {
       searchTerm: term
     })
     const key = process.env.REACT_APP_OMDB_KEY
-    fetch('http://www.omdbapi.com/?' + new URLSearchParams({
+    fetch('https://www.omdbapi.com/?' + new URLSearchParams({
       s: term,
       apikey: key
     }))
