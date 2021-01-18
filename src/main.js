@@ -8,6 +8,7 @@ import Paper from '@material-ui/core/Paper';
 import Tooltip from '@material-ui/core/Tooltip';
 import Snackbar from '@material-ui/core/Snackbar';
 import CloseIcon from '@material-ui/icons/Close';
+import External from '@material-ui/icons/OpenInNew';
 import './main.css';
 
 class Main extends React.Component {
@@ -144,6 +145,7 @@ class Main extends React.Component {
             </Paper>
           </div>
         </div>
+        <a href="https://github.com/music-mind/omdb/" target="_blank" className="source"><h3>Source</h3><External /></a>
         <Snackbar
           anchorOrigin={{
             vertical: 'bottom',

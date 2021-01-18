@@ -56,3 +56,14 @@
   justify-content: space-between;
   width: 82vw;
 }
+
+.source h3 {
+  text-align: left;
+  margin-left: 9vw;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  place-items: center;
+}
