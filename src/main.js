@@ -81,6 +81,7 @@ class Main extends React.Component {
     this.setState({
       list: list
     })
+    window.localStorage.setItem('list', JSON.stringify(Array.from(list.entries())))
   }
 
   handleClose = () => {
