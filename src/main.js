@@ -1,7 +1,6 @@
 import React from 'react';
 import IconButton from '@material-ui/core/IconButton';
 import TextField from '@material-ui/core/TextField';
-import Grid from '@material-ui/core/Grid';
 import Search from '@material-ui/icons/Search';
 import Add from '@material-ui/icons/AddBox';
 import Remove from '@material-ui/icons/RemoveCircle';
@@ -50,7 +49,7 @@ class Main extends React.Component {
     }))
       .then(res => res.json())
       .then(json => {
-        if(json.Response == "True") {
+        if(json.Response === "True") {
           this.setState({
             movies: json.Search
           })
