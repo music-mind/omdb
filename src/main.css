@@ -1,0 +1,58 @@
+.body {
+  display: grid;
+  place-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 82vw;
+}
+
+.MuiGrid-container {
+  display: block;
+}
+
+.nominations {
+  width: 30vw;
+  height: auto;
+}
+
+.search {
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+#search-input {
+  width: 80vw;
+}
+
+.title {
+  display: flex;
+  place-items: center;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.movie {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.nomination {
+  display: flex;
+  padding-left: 1rem;
+}
+
+.results {
+  width: 45vw;
+  height: auto;
+}
+
+.titles {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 82vw;
+}
