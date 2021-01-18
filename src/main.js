@@ -145,7 +145,7 @@ class Main extends React.Component {
             </Paper>
           </div>
         </div>
-        <a href="https://github.com/music-mind/omdb/" target="_blank" className="source"><h3>Source</h3><External /></a>
+        <a href="https://github.com/music-mind/omdb/" target="_blank" rel="noreferrer" className="source"><h3>Source</h3><External /></a>
         <Snackbar
           anchorOrigin={{
             vertical: 'bottom',
